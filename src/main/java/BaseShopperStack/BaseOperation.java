@@ -19,6 +19,8 @@ public class BaseOperation {
 		driver.get("https://shoppersstack.com/");
 		System.out.println("Shopper stack website is open on chrome");
 		System.out.println("Purchase is now");
+		System.out.println("American guy write the code");
+		System.out.println("Now you can work");
 		driver.manage().window().maximize();
 	}
 	
