@@ -17,6 +17,8 @@ public class BaseOperation {
 	public void enterURL() {
 	     driver=new ChromeDriver();
 		driver.get("https://shoppersstack.com/");
+		System.out.println("Shopper stack website is open on chrome");
+		System.out.println("Purchase is now");
 		driver.manage().window().maximize();
 	}
 	
