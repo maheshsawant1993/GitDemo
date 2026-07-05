@@ -22,6 +22,8 @@ public class BaseOperation {
 		System.out.println("American guy write the code");
 		System.out.println("Now you can work");
 		driver.manage().window().maximize();
+		System.out.println("I am Architect 2");
+		System.out.println("I have written a new code");
 	}
 	
 //	@AfterMethod
