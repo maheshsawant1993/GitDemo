@@ -27,7 +27,8 @@ public class HomePage extends BaseOperation {
 			
 	public void LoginButton() {
 	    WebDriverWait it=new WebDriverWait(driver,Duration.ofSeconds(30));
-		System.out.println("Good work");
+		System.out.println("Good work American guy");
+		System.out.println("I have written the code now you can write");
 		it.until(ExpectedConditions.visibilityOfElementLocated(By.id("loginBtn"))).click();
 	}
 	
